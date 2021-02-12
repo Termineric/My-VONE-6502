@@ -57,7 +57,7 @@ How "My First One" differences in follow ways One plain computers
 
 "THE My-VONE-6502" 
 ===============================================================================
-I start building computer here under describe whatt i go or plan to uses .
+  I start building computer here under describe whatt i go or plan to uses .
 
     I have OLD 19" case and 3 Backboard for euro-bus pcb's the layout is made for Din-41612 row A,B,C 
     Pin assignment from "junior computer" Din41612 A,C rows connectors the B row for extend version extra adress space see Bus pin assignment (This will be made soon)
