@@ -1,7 +1,7 @@
 ===============================================================================
 Whatt is "THE My-VONE-6502" 
 ===============================================================================
-
+*
 "THE My-VONE-6502" is rebuild from "My First One" how I call this computer now 
 i build in time I whass playing with flip-flops (Profeser fix)
 Rond that that time i'm talking about ther where some kits to build your your
@@ -12,7 +12,7 @@ for get small boy small wallet parts not cheap (like now)
 
 When i get Vic20 (a year befor stop saling in here) after that i change 
 hardware so will work the Vic20 
-
+*
 ===============================================================================
 How "My First One" differences in follow ways One plain computers
 ===============================================================================
