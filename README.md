@@ -52,16 +52,17 @@ How "My First One" differences in follow ways One plain computers
     * I build on card program Eproms (old syle 18/21/25 volts) locate in D000 
       (i wish still have this card i can't remember how i build it i think i somelse plan)
 
-  After i get VIC20 i make interfase to 19" Case and remove CPU-card and key-board because VIC20 can't play dead so only memory-card(some small change the adress and VIC20 have more memory)
+    After i get VIC20 i make interfase to 19" Case and remove CPU-card and key-board because VIC20 can't play dead so only memory-card(some small change the adress and VIC20 have more memory)
 
 
 "THE My-VONE-6502" 
 ===============================================================================
-  I start building computer here under describe whatt i go or plan to uses .
+    I start building computer here under describe whatt i go or plan to uses .
 
-    I have OLD 19" case and 3 Backboard for euro-bus pcb's the layout is made for Din-41612 row A,B,C 
-    Pin assignment from "junior computer" Din41612 A,C rows connectors the B row for extend version extra adress space see Bus pin assignment (This will be made soon)
-    The Main CPU-BOARD can have extends-board on in that connect the A0/A16 to A0/A16 But when 74612 extend-board is on ther you can adress many more memory for this use Iuses B row
+    *I have OLD 19" case and 3 Backboard for euro-bus pcb's the layout is made for Din-41612 row A,B,C 
+      Pin assignment from "junior computer" Din41612 A,C rows connectors the B row for extend version extra adress space see Bus pin assignment (This will be made soon)
+      The Main CPU-BOARD can have extends-board on in that connect the A0/A16 to A0/A16 But when 74612 extend-board is on ther you can adress many more memory for this use Iuses B row
+
     * "THE My-VONE-6502 KeyBoard"
         * Debug mode
         * CPU/Program Mode
