@@ -45,7 +45,8 @@ How "My First One" differences in follow ways One plain computers
         "Read Eprom"
         "Check Eprom"
 
-    * Uses software from "Electuur" or other places don't know any more  
+    * Uses software & Hardware from "Electuur" or other places don't know any more like 
+        Ben Eater hy is the best Youtuber how hy explane thinks any can get in to it "THANKS BEN you make love my electronics again"
 
     * All programming i don on paper by hand and then type in on keyboard
 
