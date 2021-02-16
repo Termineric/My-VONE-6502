@@ -46,7 +46,7 @@ How "My First One" differences in follow ways One plain computers
         "Check Eprom"
 
     * Uses software & Hardware from "Electuur" or other places don't know any more like 
-        Ben Eater hy is the best Youtuber how hy explane thinks any can get in to it "THANKS BEN you make love my electronics again"
+        Ben Eater hy is the best Youtuber how hy explane thinks any can get in to it "THANKS Ben Eater & "8 bit Guy" you make love my electronics again "
 
     * All programming i don on paper by hand and then type in on keyboard
 
