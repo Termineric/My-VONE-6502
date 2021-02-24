@@ -1,26 +1,25 @@
-
-Whatt is "THE My-VONE-6502" 
+What is "THE My-VONE-6502"?
 ===============================================================================
 
-  "THE My-VONE-6502" is rebuild from "My First One" how I call this computer now.
-  This build in time I whas still playing with flip-flops (Professer fixed) Rond that that time i'm talking about where some kits to build your your computer your self ("junior computer", "Kim1" and more).
-  But I'm from Holland i have subscription to "Electuur" ("Elektor") in maart 1980 start using part of "Electuur junior computer" to build my version of how computer most look and work.
-  Ibuild not very fast because of buget don't for get small boy small wallet parts not cheap (like now)
+  "THE My-VONE-6502" is a rebuild from "My First One" how I call this computer now.
+  This build in time I whas still playing with flip-flops (Professer fixed) at that time there where some kits you could build your yourself ("junior computer", "Kim1" and more).
+  I'm from Holland and I have a subscription to "Electuur" ("Elektor") in March 1980 start using part of "Electuur junior computer" to build my own version of how a computer most look and work.
+  I took my time to build, because of budget. I was still a young boy and these things weren't as cheap, like they are now.
 
-  When i get Vic20 (a year befor stop saling in here) after that i change hardware so will work the Vic20 
+  When I got Vic20 (a year before stop they stopped selling it here) after that I changde hardware so it would work with the Vic20 
 
-How "My First One" differences in follow ways One plain computers
+How "My First One" differences in ways from plain computers
 ===============================================================================
     * Key-board is hexadecimal is internal 4 bit 
-      Dispaly Have 4 Adress & 2 Data hexadecimal 7 segment display is not controld CPU controlt by logic chips & Eprom have 2 modes CPU/Program Mode(Run-Mode) & Debug-Mode.
+      Display has 4 Address & 2 Data hexadecimal 7 segment display is not controlled CPU controlled by logic chips & Eprom have 2 modes CPU/Program Mode(Run-Mode) & Debug-Mode.
    
       * CPU/Program Mode
-          Key-board info locate 3 adress All 4 bits combi to 8 bits Data , Low-Adress  , High-Adress 
+          Keyboard info locate 3 address all 4 bits combi to 8 bits Data, Low-Address, High-Address 
             [1] is (Read)key-board Value/(write)D0/D7 Data display
             [2] is (Read)key-Board Command/(write)A0/A7 Low-Adress display
             [3] is (write)A0/A7 High-Adress display
 
-      * Debug mode the CPU play dead(not running) 
+      * Debug mode the CPU play dead (not running) 
             So you work right to left type first value then adress and this 
             mode is build to my way of thinken and how type quick data in 
             if you type all need to change you press "PUT" 
@@ -30,12 +29,12 @@ How "My First One" differences in follow ways One plain computers
             if cursor<DS0 then cursor=DS5 or if cursor>DS5 then cursor=DS0 
             (This i used flipFlops)
 
-    * "My First One" have begin a bus because found in scrapyard a 19" case with a backplain and some card in there i remove card And backplain,
-      put connectors in as i need then make my bus by hand all pins as i need it put more connectors in 
-      The funny part afer "Electuur junior computer" come out i don't need to change mutch my bus and cards have same pin assignment this ment change 8 wires 1 power rail 
-      I used same connector Din41612 A,C Not the Din411617 I want start use the hardware that "Electuur" goto make .
+    * "My First One" have begin a bus because found in scrapyard a 19" case with a backplain and some card in there I remove card And backplain,
+      put connectors in as i need then make my bus by hand all pins as I need it put more connectors in 
+      The funny part afer "Electuur junior computer" came out I didn't needed to change much as my bus and cards have the same pin assignment this ment change 8 wires 1 power rail.
+      I used the same connector Din41612 A,C Not the Din411617 I wanted to start using the hardware that "Electuur" got to make .
     
-    * My kernel whas very small only handel basic function 
+    * My kernel was very small only handle basic functions 
         "Get Keyboard Char" 
         "Put Display char" 
         "Typeing function" 
@@ -45,24 +44,24 @@ How "My First One" differences in follow ways One plain computers
         "Read Eprom"
         "Check Eprom"
 
-    * Uses software & Hardware from "Electuur" or other places don't know any more like 
-        Ben Eater hy is the best Youtuber how hy explane thinks any can get in to it "THANKS Ben Eater & "8 bit Guy" you make love my electronics again "
+    * Uses software & Hardware from "Electuur" or other places don't know anymore like 
+        Ben Eater he is the best Youtuber around. I like how he explains things in a way anyone can get into it. "THANKS Ben Eater & "8 bit Guy" you make me love my electronics again!"
 
-    * All programming i don on paper by hand and then type in on keyboard
+    * All programming I don't do on paper, but by hand and then type in on keyboard
 
     * I build on card program Eproms (old syle 18/21/25 volts) locate in D000 
-      (i wish still have this card i can't remember how i build it i think i somelse plan)
+      (I wish still have this card I can't remember how I build it.)
 
-    After i get VIC20 i make interfase to 19" Case and remove CPU-card and key-board because VIC20 can't play dead so only memory-card(some small change the adress and VIC20 have more memory)
+    After i got the VIC20 I made an interface to 19" Case and remove CPU-card and keyboard because VIC20 can't play dead, so only memory-card (some small changes to the address and the VIC20 has more memory)
 
 
 "THE My-VONE-6502" 
 ===============================================================================
-    I start building computer here under describe whatt i go or plan to uses .
+    I started building the computer and below I describe what my plans are and what I've done.
 
     *I have OLD 19" case and 3 Backboard for euro-bus pcb's the layout is made for Din-41612 row A,B,C 
-      Pin assignment from "junior computer" Din41612 A,C rows connectors the B row for extend version extra adress space see Bus pin assignment (This will be made soon)
-      The Main CPU-BOARD can have extends-board on in that connect the A0/A16 to A0/A16 But when 74612 extend-board is on ther you can adress many more memory for this use Iuses B row
+      Pin assignment from "junior computer" Din41612 A,C rows connectors the B row for extend version extra adress space see Bus pin assignment (this will be made soon).
+      The Main CPU-BOARD can have extends-board on in that connect the A0/A16 to A0/A16 But when 74612 extended-board is there so you can address many more memory for this use I use the B row
 
     * "THE My-VONE-6502 KeyBoard"
         * Debug mode
@@ -72,28 +71,29 @@ How "My First One" differences in follow ways One plain computers
         * THE My-VONE-6502 Kernel
         * Direct Flascard reader/writer
     
-    *   VGA/HDMI output (The veraboard yes same as X16 this waiting on guy how make that board get back to me) 
+    *   VGA/HDMI output (The veraboard. Yes same as X16. I am waiting on someone who can tell me how make that board to get back to me) 
     
     * Rom-Card
         *   Basic (same thing close to commodore basic)
         *   Pascal (hey i'm delphi programmer)
     
     * Ram-Card 
-      * Unkow 
+      * Unkown
     
-    *   Like connect a commdore flopie drive (sim version or real) 
+    *   Like connect a commdore floppy drive (sim version or real) 
     *   Via Card plain I.O
 
 P.s.
 ===============================================================================
-  I writing this as i remember it me because there not bit left from "My First One" i build only what remember 
+  I am writing this down from memory. It's because there's not much left from the "My First One" I build only what remember 
 
-  Please please forgive for spelling errors I have dyslexia from when whass born.
+  Please forgive my spelling errors, I have dyslexia since I was born.
 
-  If can use any of my stuff is oke but drop me a E-mail or somthing
+  You can use any of my stuff, that's ok, but drop me a E-mail or something so I there's more people loving this.
 
 
 Handy resouces
 ===============================================================================
   retro.hansotten.nl/6502-sbc/elektuur-junior/elektor-junior-literature/junior-dutch/
+
   www.retro-lab.nl/?p=618
